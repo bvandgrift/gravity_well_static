@@ -5978,3 +5978,7 @@ h1, h2, h3, h4, h5, h6 {
 footer {
   background: #ebede6;
 }
+
+#root {
+  background-image: url('/images/banner.jpg');
+}
