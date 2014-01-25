@@ -5899,12 +5899,12 @@ fieldset {
 .contact-info li {
   list-style-type: none;
   margin-bottom: 0.25em;
-  font-size: 0.8125em;
+  font-size: 2em;
 }
 .contact-info i {
   display: inline-block;
   text-align: center;
-  width: 1.5em;
+  width: 2em;
   color: #a4a89b;
 }
 

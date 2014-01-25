@@ -57,3 +57,15 @@
 @import "includes/team";
 @import "includes/contact";
 @import "includes/color";
+
+.feature-panel { 
+  @include panel(
+    $bg:orange,
+    $padding: 20px,
+    $adjust: true
+    );
+}
+
+.feature-name {
+  color: red;
+}
