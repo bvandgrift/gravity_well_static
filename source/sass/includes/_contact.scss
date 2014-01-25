@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Contact
+   ========================================================================== */
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.contact {
+	img {
+		margin-bottom: emCalc(20px);
+	}
+}
+
+.contact-info {
+	margin-left: 0;
+	padding-left: 0;
+	li {
+		list-style-type: none;
+		margin-bottom: emCalc(4px);
+		font-size: emCalc(13px);
+	}
+	i {
+		display: inline-block;
+		text-align: center;
+		width: emCalc(24px);
+		color: #a4a89b;
+	}
+}
+
+.warning {
+	padding-left: emCalc(20px);
+	color: #f00;
+}

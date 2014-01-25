@@ -1,0 +1,20 @@
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+.main-nav {
+	@include single-box-shadow(rgba(0,0,0,0.4), 0, 0, 5px, false, false);
+}
+
+.top-bar #site-title a {
+	padding-left: $column-gutter / 2;
+}
+
+.top-bar-section ul li {
+	letter-spacing: -0.05em;
+}
+
+@media only screen and (max-width: #{$medium-screen}) {
+	.main-nav {
+		border-bottom: 1px solid #fff;
+	}
+}
