@@ -23,40 +23,93 @@
 
 </head>
 <body>
+	<div class="main-nav contain-to-grid sticky" style='display:none;'>
+		<nav class="top-bar" data-options>
+			<ul class="title-area">
+				<!-- Title Area -->
+				<li class="name">
+					<h1 id="site-title"><a href="#"><img src="images/logo.png"></a></h1>
+				</li>
+
+				<!-- Remove the class "menu-icon" to get rid of menu icon. -->
+				<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+			</ul>
+
+			 <section class="top-bar-section">
+				<ul class="right">
+					<!-- Each link should match an id of a section below 
+					     e.g. #about should match id="about" -->
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#work">Our Work</a></li>
+					<li><a href="#team">Meet the Team</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+				</ul>
+			</section>
+		</nav>
+	</div>
+
 	<div id="main">
+		<!-- Orbit Slider -->
+		<!-- Available Classes:
+		     light: white text
+		     dark: black text
+		     light-on-dark: white text on black box
+		     dark-on-light: black text on white box
+		     left: align left
+		     right: align right
+		 -->
+		<section id="home" class="slideshow-wrapper">
+			<div class="preloader"></div>
+			<ul id="home-slider" data-orbit>
+				<li>
+					<div class="headline light row">
+						<div class="large-12 columns">
+							<h2><span>Gravity Well Loading</span></h2>
+						</div>
+					</div>
+					<img src="images/dummy/slides/image-2.jpg" />
+				</li>
+				<li>
+					<div class="headline light-on-dark row">
+						<div class="large-12 columns">
+							<h2 class="with-subhead"><span>Different Headline Styles</span></h2>
+							<p>With subheadings, too.</p>
+						</div>
+					</div>
+					<img src="images/dummy/slides/image-1.jpg" />
+				</li>
+				<li>
+					<div class="headline left light row">
+						<div class="large-12 columns">
+							<h2><span>Make It Your Home</span></h2>
+						</div>
+					</div>
+					<img src="images/dummy/slides/image-3.jpg" />
+				</li>
+			</ul>
+		</section>
 		<section id="root" class="section">
 			<div class="row">
 				<div class="large-12 columns">
 					<h3 class="section-title">Gravity Well Events</h3>
-          <h4 class="section-subtitle">expand your event's horizon</h4>
+          <h4 class="section subtitle">Expand your Event Horizon</h4>
 				</div>
 				<div class="large-12 columns">
-					<a href="#learn-more" class="button next-section-button">Learn More</a>
+					<a href="#learn-more" class="button">Learn More</a>
 				</div>
 			</div>
 		</section>
-		<section id="learn-more" class="section">
+		<section id="about" class="section">
 			<div class="row">
 				<div class="large-12 columns">
-					<h3 class="section-title">Events Build Business</h3>
-					<h3 class="section-title">...But Events Are Hard</h3>
-        </div>
-      </row>
-      <div class="row">
-        <div class="large-2 columns"></div>
-				<div class="large-6 columns">
-          <p>
-            Bacon ipsum dolor sit amet bresaola jerky venison turkey tongue
-            hamburger. Landjaeger shankle fatback pork meatball. T-bone turducken
-            rump tongue, meatball chicken pastrami landjaeger pork loin short
-            loin flank leberkas. Jerky tri-tip venison, rump flank ribeye tail
-            short ribs beef ribs salami chuck meatball pork belly.
-          </p>
+					<h3 class="section-title">About Us</h3>
 				</div>
-        <div class="large-2 columns"></div>
-				<div class="large-12 columns">
-					<h3 class="section-title">We Make Events Easy</h3>
-        </div>
+				<div class="large-6 columns">
+					<p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum id tincidunt nunc faucibus. Ut neque eros, pulvinar eu blandit quis, lacinia nec ipsum. Etiam vel orci ipsum. Sed eget velit ipsum. Duis in tortor scelerisque felis mattis imperdiet. Donec at libero tellus. Suspendisse consectetur consectetur bibendum. Pellentesque posuere, ligula volutpat elementum interdum, diam arcu elementum ipsum, vel ultricies est mauris ut nisi.</p>
+				</div>
+				<div class="large-6 columns">
+					<img src="images/macbook.jpg" />
+				</div>
 			</div>
 		</section>
 
