@@ -5675,10 +5675,28 @@ address {
   font-style: normal;
 }
 
+.main-title {
+  text-align: center;
+  margin-top: 3em;
+}
+
 .section-title {
   text-align: center;
   margin-bottom: 1.25em;
 }
+
+.section-subtitle {
+  text-align: center;
+  margin-bottom: 1.25em;
+}
+
+a.next-section-button {
+  text-align: center;
+  margin: 0 auto 1.25em auto;
+  width: 180px;
+  display: block;
+}
+
 
 .with-subhead {
   margin-bottom: 0.3125em;
@@ -5959,4 +5977,8 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
   background: #ebede6;
+}
+
+#root {
+  background-image: url('/images/banner.jpg');
 }
