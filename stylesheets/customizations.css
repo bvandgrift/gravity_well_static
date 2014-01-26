@@ -13,7 +13,7 @@ h3.main-title {
   margin-top: 1em;
   text-align: center;
   margin-bottom: 1em;
-  font-size: 4em;
+  font-size: 6em;
   margin-bottom: 0;
 }
 
@@ -21,14 +21,6 @@ h4.main-subtitle {
   text-align: center;
   margin-bottom: 1.25em;
   margin-top: 0px;
-}
-
-.main-title span.color-1 {
-  color: #f99a3d;
-}
-
-.main-title span.color-2 {
-  color: #3d7ce2;
 }
 
 a.next-section-button { 
@@ -39,5 +31,5 @@ a.next-section-button {
 }
 
 #root { 
-  background: #000 url('/images/banner.jpg') no-repeat center center;
+  background: #000 url('/images/banner.jpg') no-repeat top center;
 }
