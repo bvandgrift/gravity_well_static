@@ -57,3 +57,26 @@
 @import "includes/team";
 @import "includes/contact";
 @import "includes/color";
+
+#main-blackboard {
+  background-color: #000000;
+  @include opacity(0.3);
+}
+
+.main-title, .main-subtitle {
+  @include single-text-shadow;
+}
+
+#root a {
+  @include box-shadow;
+}
+
+#learn-more {
+  background-color: $primary-dark;
+  color: $primary-light;
+}
+
+#contact, #contact a {
+  background-color: $alternate-color;
+  color: $primary-light; //tint($primary-light, 40);
+}
