@@ -58,8 +58,13 @@
 @import "includes/contact";
 @import "includes/color";
 
-.main-title, .main-subtitle {
+.main-title {
   @include single-text-shadow;
+}
+
+#tagline {
+  color: $secondary-dark;
+  font-size: 2.2em;
 }
 
 #root a {

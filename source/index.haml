@@ -19,10 +19,10 @@
       %section#root.section
         .row
           .large-12.large-centered.columns
-            %h3.main-title
+            %h3#logo-text.main-title
               %span.color-1 Gravity
               %span.color-2 Well
-            %h4.main-subtitle expand your event's horizon
+            %h4#tagline.main-subtitle expand your event's horizon
       %section#learn-more.section
         .row
           .large-6.large-centered.columns
@@ -143,13 +143,13 @@
                   %label{:for => "mce-EMAIL"}
                     Email Address
                     %span.asterisk *
-                  %input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => ""}/
+                  %input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => "", :placeholder => "your@email.com"}/
                 .mc-field-group
                   %label{:for => "mce-FNAME"} First Name
-                  %input#mce-FNAME{:name => "FNAME", :type => "text", :value => ""}/
+                  %input#mce-FNAME{:name => "FNAME", :type => "text", :value => "", :placeholder => "first name" }/
                 .mc-field-group
                   %label{:for => "mce-LNAME"} Last Name
-                  %input#mce-LNAME{:name => "LNAME", :type => "text", :value => ""}/
+                  %input#mce-LNAME{:name => "LNAME", :type => "text", :value => "", :placeholder => "last name" }/
                 #mce-responses.clear
                   #mce-error-response.response{:style => "display:none"}
                   #mce-success-response.response{:style => "display:none"}
@@ -189,8 +189,8 @@
               \#fbc28a (secondary +40% white)
             %h4.body-font.primary-dark
               \#387886 (primary +40% black)
-            %h4.body-font.secondary-dark
-              \#cd552d (secondary +40% black)
+            %h4.body-font.alternate-dark
+              \#57783d (alternate +40% black)
             %h4.body-font.alternate-light
               \#bddea3 (alternate +40% white)
     %footer
