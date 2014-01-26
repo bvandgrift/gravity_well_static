@@ -1,0 +1,47 @@
+/* ==========================================================================
+   General Styles
+   ========================================================================== */
+.section {
+	padding-top: emCalc(60px);
+	padding-bottom: emCalc(60px);
+}
+
+ul.clearing-thumbs {
+	margin-left: 0;
+	li {
+		margin-right: 0;
+		margin-bottom: emCalc(30px);
+	}
+}
+
+footer {
+	margin-top: emCalc(40px);
+	padding-top: emCalc(40px);
+	padding-bottom: emCalc(40px);
+}
+
+/* ==========================================================================
+   General Typography
+   ========================================================================== */
+address {
+	font-style: normal;
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: emCalc(20px);
+}
+
+.with-subhead {
+	margin-bottom: emCalc(5px);
+	.dark &,
+	.light & {
+		margin-bottom: 0;
+	}
+}
+
+footer {
+	p {
+		font-size: emCalc(12px);
+	}
+}

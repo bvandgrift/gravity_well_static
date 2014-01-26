@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Bios (Meet the Team)
+   ========================================================================== */
+.headshot {
+	text-align: center;
+	img {
+		margin-bottom: emCalc(20px);
+	}
+}
+
+.bio-name {
+	margin-bottom: 0;
+}
+
+.job-title {
+	text-transform: uppercase;
+	font-size: emCalc(11px);
+}
+
+.job-description {
+	font-size: emCalc(13px);
+}
+
+@media only screen and (max-width: #{$small-screen}) {
+	.headshot {
+		margin-bottom: emCalc(40px);
+	}
+}

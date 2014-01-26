@@ -1,0 +1,74 @@
+h1, h2, h3, h4, h5, h6 {
+	color: $secondary-color;
+}
+
+.top-bar {
+	background: #fff;
+
+	.toggle-topbar.menu-icon a {
+		color: #444;
+	}
+
+	.toggle-topbar.menu-icon a span {
+		@include box-shadow(0 10px 0 1px #444, 0 16px 0 1px #444, 0 22px 0 1px #444);
+	}
+}
+
+.top-bar-section {
+	ul {
+		background: #fff;
+		li > a {
+			background: #fff;
+		}
+	}
+
+	.right {
+		li a {
+			color: #444;
+		}
+		.current a {
+			color: $primary-color;
+		}
+	}
+}
+
+@media only screen and (max-width: #{$topbar-breakpoint}) {
+	.top-bar-section {
+		ul {
+			li > a {
+				background: #fff;
+				padding-left: $column-gutter;
+				border-bottom: 1px solid #ebede6;
+			}
+		}
+	}
+	.title-area {
+		border-bottom: 1px solid #ebede6;
+	}
+}
+
+.section {
+	border-bottom: 1px solid #ebede6;
+	&:last-child {
+		border-bottom: none;
+	}
+}
+
+.bio-name {
+	color: $primary-color;
+}
+
+.job-title {
+	color: #333;
+}
+
+.social-link {
+	color: #a4a89b;
+	.social-link:hover {
+		color: $primary-color;
+	}
+}
+
+footer {
+	background: #ebede6;
+}
