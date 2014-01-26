@@ -58,11 +58,6 @@
 @import "includes/contact";
 @import "includes/color";
 
-#main-blackboard {
-  background-color: #000000;
-  @include opacity(0.3);
-}
-
 .main-title, .main-subtitle {
   @include single-text-shadow;
 }
@@ -77,6 +72,43 @@
 }
 
 #contact, #contact a {
-  background-color: $alternate-color;
+  background-color: $secondary-dark;
   color: $primary-light; //tint($primary-light, 40);
+}
+
+.main-title span.color-1 {
+  color: $primary-color;
+  font-family: 'Crete Round', serif;
+}
+
+.main-title span.color-2 {
+  color: $secondary-color;
+  font-size: 1.3em;
+  font-family: 'Devonshire', cursive;
+}
+#section {
+  display: block;
+  height: 100%;
+}
+
+h4.primary-color, h2.primary-color     { color: $primary-color; }
+h4.secondary-color, h2.secondary-color { color: $secondary-color; }
+h4.alternate-color, h2.alternate-color { color: $alternate-color; }
+h4.primary-light   { color: $primary-light; }
+h4.secondary-light { color: $secondary-light; }
+h4.alternate-light { color: $alternate-light; }
+h4.primary-dark    { color: $primary-dark;  }
+h4.secondary-dark  { color: $secondary-dark; }
+h4.alternate-dark  { color: $alternate-dark; }
+
+h2.accent-font {
+  font-family: $accent-font;
+}
+
+h2.headline-font {
+  font-family: $headline-font;
+}
+
+h2.body-font {
+  font-family: $body-font;
 }
