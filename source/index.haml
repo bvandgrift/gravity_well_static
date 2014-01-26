@@ -1,0 +1,213 @@
+!!!
+/[if IE 8] <html class="no-js lt-ie9" lang="en" >
+/ [if gt IE 8]><!
+%html.no-js{:lang => "en"}
+  / <![endif]
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width", :name => "viewport"}/
+    %title GravityWell | Event Planning
+    / Google Fonts: Noto Sans
+    %link{:href => "http://fonts.googleapis.com/css?family=Crete+Round|Devonshire", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", :rel => "stylesheet"}/
+    / Main CSS
+    %link{:href => "stylesheets/app.css", :rel => "stylesheet"}/
+    %link{:href => "stylesheets/customizations.css", :rel => "stylesheet"}/
+    %script{:src => "javascripts/vendor/custom.modernizr.js"}
+  %body
+    #main
+      %section#root.section
+        .row
+          .large-12.large-centered.columns
+            %h3.main-title
+              %span.color-1 Gravity
+              %span.color-2 Well
+            %h4.main-subtitle expand your event's horizon
+      %section#learn-more.section
+        .row
+          .large-6.large-centered.columns
+            %p
+              %span If you are a small-business owner, you think about sales non-stop.  
+              Most business people know that professional appearances generate
+              leads (and sales), but would never dream of producing an event
+              themselves:
+            %ul
+              %li 
+                %i.icon-asterisk
+                How would I pick a venue?
+              %li 
+                %i.icon-asterisk
+                How can I be sure people will show up?
+              %li 
+                %i.icon-asterisk
+                What are my attendees expecting that wouldn’t occur to me?
+              %li
+                %i.icon-asterisk
+                Why would I
+                %strong risk my reputation
+                when I’m not confident I can succeed?
+              %li
+                %i.icon-asterisk
+                How can I be sure I won’t be
+                %strong wasting my time and money
+                if no one shows up?
+            %h2.section-title.accent-font It doesn’t have to be this way.
+      %section#what-we-do.section
+        .row
+          .large-6.large-centered.columns
+            %h3#promise.section-title GravityWell makes planning your professional event as easy as 1-2-3.
+
+            %p We want to know:
+            %ul
+              %li 
+                %i.icon-asterisk
+                How long is your event?
+              %li 
+                %i.icon-asterisk
+                When did you have in mind?
+              %li 
+                %i.icon-asterisk
+                How many people do you need in your audience?
+              %li 
+                %i.icon-asterisk
+                What is the cost of a ticket?
+              %li 
+                %i.icon-asterisk
+                Do you want
+                %strong The Basics
+                or
+                %strong The Works
+                ?
+
+            %h3.section-title We'll take it from there.
+      %section#how-it-works.section
+        .row
+          .large-12.columns
+            %h2.section-title.accent-font.primary-color Plan an event that matches your budget and goals
+        .row
+          .large-9.large-centered.columns
+            .large-6.columns
+              %ul.pricing-table
+                %li.title The Basics
+                %li.price 10% ticket fee + $300
+                %li.description Everything you need, nothing you don't
+                %li.bullet-item Ticketing
+                %li.bullet-item Venue
+                %li.bullet-item Event Page
+                %li.bullet-item Attendee Info
+                %li.bullet-item Phone and Email Support
+                %li.cta-button
+                  %a.button{:href => "#"} Let's Do It
+              %p
+                Both packages include access to our <span>riskless ticketing</span>, meaning that you’ll never
+                waste a second on an event that doesn’t have the attendance it needs to succeed.
+
+            .large-6.columns
+              %ul.pricing-table
+                %li.title The Works
+                %li.price 25% ticket fee + $500
+                %li.description The 'wow' factor. A smart event and expert execution
+                %li.bullet-item Ticketing
+                %li.bullet-item Venue
+                %li.bullet-item Event Page
+                %li.bullet-item Attendee Info
+                %li.bullet-item Phone and Email Support
+                %li.bullet-item Automated lifecycle email correspondence
+                %li.bullet-item Social media marketing support
+                %li.bullet-item Integrates with your website
+                %li.bullet-item Custom branding
+                %li.bullet-item CRM Integration
+                %li.cta-button
+                  %a.button{:href => "#"} Let's Do It
+
+      %section#contact.section
+        .row
+          .large-6.columns
+            %h2.section-title.accent-font.primary-color
+              Get In Touch!
+            %ul.contact-info
+              %li
+                %i.icon-twitter
+                %a{:href => "http://twitter.com/GravityWellEvts"} @GravityWellEvts
+              %li
+                %i.icon-envelope
+                %a{:href => "mailto:info@gravitywellevents.co"} info@gravitywellevents.co
+              %li
+                %i.icon-phone
+                (704) 951-7829
+          .large-6.columns
+            %h2.section-title.primary-color Get Notified!
+            #mc_embed_signup
+              %form#mc-embedded-subscribe-form.validate{:action => "http://itsbspoke.us2.list-manage1.com/subscribe/post?u=8b4656bd4a093a3bcabfda08a&amp;id=0246c7f1fb", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
+                .mc-field-group
+                  %label{:for => "mce-EMAIL"}
+                    Email Address
+                    %span.asterisk *
+                  %input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => ""}/
+                .mc-field-group
+                  %label{:for => "mce-FNAME"} First Name
+                  %input#mce-FNAME{:name => "FNAME", :type => "text", :value => ""}/
+                .mc-field-group
+                  %label{:for => "mce-LNAME"} Last Name
+                  %input#mce-LNAME{:name => "LNAME", :type => "text", :value => ""}/
+                #mce-responses.clear
+                  #mce-error-response.response{:style => "display:none"}
+                  #mce-success-response.response{:style => "display:none"}
+                / real people should not fill this in and expect good things - do not remove this or risk form bot signups
+                %div{:style => "position: absolute; left: -5000px;"}
+                  %input{:name => "b_8b4656bd4a093a3bcabfda08a_0246c7f1fb", :type => "text", :value => ""}/
+                .clear
+                  %input#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", :value => "Subscribe"}/
+      %section#style-guide.section
+        .row
+          %h2.section-title.accent-font.primary-dark Like Our Style?
+        .row
+          .large-5.columns
+            %h2.headline-font.primary-color 
+              Headline Font
+              %br 
+              (Crete Round)
+            %h2.accent-font.secondary-color 
+              Accent Font 
+              %br
+              (Devonshire)
+            %p
+              The body font is Helvetica Neue&mdash;bright and readable,
+              without being typical.
+          .large-5.columns
+            %h4.headline-font.primary-color
+              \#5ec9e0 (primary)
+            %h4.headline-font.primary-light
+              \#cfecf1 (primary +40% white)
+            %h4.headline-font.alternate-color
+              \#91c967 (alternate)
+            %h4.accent-font.secondary-color
+              \#f99a3d (secondary)
+            %h4.accent-font.secondary-dark
+              \#cd552d (secondary +40% black)
+            %h4.accent-font.secondary-light
+              \#fbc28a (secondary +40% white)
+            %h4.body-font.primary-dark
+              \#387886 (primary +40% black)
+            %h4.body-font.secondary-dark
+              \#cd552d (secondary +40% black)
+            %h4.body-font.alternate-light
+              \#bddea3 (alternate +40% white)
+    %footer
+      %section.row
+        .large-12.columns
+          %p &copy; 2014 Gravity Well, LLC. All rights reserved.
+        .large-12.columns
+          %p
+            Photo courtesy of
+            %a{:href => "http://www.flickr.com/photos/jarkko/524502252/"} jarkko@flickr
+    %script{:src => "javascripts/vendor/jquery.js"}
+    / Comment the next line, and uncomment the lines below to customize the js you want to load
+    %script{:src => "javascripts/foundation/foundation.min.js"}
+    %script{:src => "javascripts/plugins/jquery.nav.js"}
+    %script{:src => "javascripts/plugins/jquery.scrollTo.js"}
+    %script{:src => "javascripts/plugins/jquery.flexverticalcenter.js"}
+    %script{:src => "javascripts/plugins/form-validation.js"}
+    %script{:src => "javascripts/app.js"}
+    %script{:src => "javascripts/mc.js"}
+    / End mc_embed_signup

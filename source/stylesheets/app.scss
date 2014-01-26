@@ -70,6 +70,23 @@
   background-color: $primary-dark;
   color: $primary-light;
 }
+#what-we-do, #learn-more, #how-it-works {
+  strong {
+    color: $primary-color;
+  }
+  span {
+    color: $secondary-light;
+  }
+  ul {
+    list-style-type: none;
+    i {
+      padding-right: 10px;
+    }
+  }
+  #promise {
+    font-size: 1.78em;
+  }
+}
 
 #contact, #contact a {
   background-color: $secondary-dark;
@@ -89,17 +106,20 @@
 #section {
   display: block;
   height: 100%;
+  strong {
+    color: $primary-color;
+  }
 }
 
-h4.primary-color, h2.primary-color     { color: $primary-color; }
-h4.secondary-color, h2.secondary-color { color: $secondary-color; }
-h4.alternate-color, h2.alternate-color { color: $alternate-color; }
-h4.primary-light, h2.primary-light   { color: $primary-light; }
-h4.secondary-light { color: $secondary-light; }
-h4.alternate-light { color: $alternate-light; }
-h4.primary-dark, h2.primary-dark    { color: $primary-dark;  }
-h4.secondary-dark  { color: $secondary-dark; }
-h4.alternate-dark  { color: $alternate-dark; }
+.primary-color, h4.primary-color, h2.primary-color     { color: $primary-color; }
+.secondary-color, h4.secondary-color, h2.secondary-color { color: $secondary-color; }
+.alternate-color, h4.alternate-color, h2.alternate-color { color: $alternate-color; }
+.primary-light, h4.primary-light, h2.primary-light   { color: $primary-light; }
+.secondary-light, h4.secondary-light { color: $secondary-light; }
+.alternate-light, h4.alternate-light { color: $alternate-light; }
+.primary-dark, h4.primary-dark, h2.primary-dark    { color: $primary-dark;  }
+.secondary-dark, h4.secondary-dark  { color: $secondary-dark; }
+.alternate-dark, h4.alternate-dark  { color: $alternate-dark; }
 
 h2.section-title.accent-font, h2.accent-font {
   font-family: $accent-font;
@@ -121,6 +141,11 @@ h2.body-font {
   //font:14px Helvetica,Arial,sans-serif; 
 }
 
+// Sections
+
+section p {
+  font-size: 1.2em;
+}
 
 #contact {
   form {
@@ -148,4 +173,7 @@ h2.body-font {
       color: $secondary-light;
     }
   }
+}
+
+#what-we-do {
 }
