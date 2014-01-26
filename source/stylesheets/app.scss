@@ -58,14 +58,25 @@
 @import "includes/contact";
 @import "includes/color";
 
-.feature-panel { 
-  @include panel(
-    $bg:orange,
-    $padding: 20px,
-    $adjust: true
-    );
+#main-blackboard {
+  background-color: #000000;
+  @include opacity(0.3);
 }
 
-.feature-name {
-  color: red;
+.main-title, .main-subtitle {
+  @include single-text-shadow;
+}
+
+#root a {
+  @include box-shadow;
+}
+
+#learn-more {
+  background-color: $primary-dark;
+  color: $primary-light;
+}
+
+#contact, #contact a {
+  background-color: $alternate-color;
+  color: $primary-light; //tint($primary-light, 40);
 }

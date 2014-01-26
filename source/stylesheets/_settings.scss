@@ -28,8 +28,24 @@ $em-base: 16px !default;
 
 $default-float: left;
 
+// Colors
+
+//$primary-color: #2ba6cb;
+// $primary-color: #d54928;
+$primary-color: #3d7ce2;
+$primary-dark: #495e7f;
+$primary-light: #91bbff;
+//$secondary-color: #a5cc42;
+$secondary-color: #f99a3d;
+$secondary-dark: #cc7e32;
+
+$alternate-color: #7f6245;
+
+// $alert-color: #c60f13;
+// $success-color: #5da423;
+
 // $body-bg: #fff;
-$body-font-color: #656565;
+$body-font-color: $primary-dark;
 $body-font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -42,18 +58,17 @@ $body-font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial,
 
 // $text-direction: ltr;
 
-// Colors
-
-//$primary-color: #2ba6cb;
-$primary-color: #d54928;
-$secondary-color: #a5cc42;
-// $alert-color: #c60f13;
-// $success-color: #5da423;
-
 // Make sure border radius matches unless we want it different.
 
-// $global-radius: 3px;
+$global-radius: 5px;
 // $global-rounded: 1000px;
+
+// shadows
+//
+
+$default-text-shadow-color: #000000;
+$default-text-shadow-blur: 10px;
+$default-text-shadow-v-offset: 1px;
 
 // Inset shadow shiny edges and depressions.
 
@@ -140,7 +155,7 @@ $secondary-color: #a5cc42;
 $header-font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
 $header-font-weight: bold;
 // $header-font-style: normal;
-$header-font-color: #d54928;
+$header-font-color: $secondary-color;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
@@ -1268,3 +1283,5 @@ $topbar-link-color:                    $primary-color;
 // Sticky Class
 
 // $topbar-sticky-class:                  ".sticky";
+
+
