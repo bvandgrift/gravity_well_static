@@ -32,21 +32,39 @@ $default-float: left;
 
 //$primary-color: #2ba6cb;
 // $primary-color: #d54928;
-$primary-color: #3d7ce2;
-$primary-dark: #495e7f;
-$primary-light: #91bbff;
-//$secondary-color: #a5cc42;
-$secondary-color: #f99a3d;
-$secondary-dark: #cc7e32;
+$orange: #F99A3D;
+$orange-light: tint($orange, 40);
+$orange-dark: #CD552D;
+$blue: #5EC9E0;
+$blue-light: #CFECF1;
+$blue-dark: shade($blue, 40);
+$green: #91C967;
+$green-light: tint($green, 40);
+$green-dark: shade($green, 40);
 
-$alternate-color: #7f6245;
+$primary-color: $blue;
+$primary-dark: $blue-dark;
+$primary-light: $blue-light;
+//$secondary-color: #a5cc42;
+
+$secondary-color: $orange;
+$secondary-dark: $orange-dark;
+$secondary-light: $orange-light;
+
+$alternate-color: $green;
+$alternate-dark: $green-dark;
+$alternate-light: $green-light;
+
+$accent-font: "Devonshire", cursive;
+$headline-font: "Crete Round", serif;
+$body-font: "Helvetica Neue", sans-serif;
 
 // $alert-color: #c60f13;
 // $success-color: #5da423;
 
 // $body-bg: #fff;
 $body-font-color: $primary-dark;
-$body-font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
