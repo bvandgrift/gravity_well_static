@@ -94,15 +94,17 @@
 h4.primary-color, h2.primary-color     { color: $primary-color; }
 h4.secondary-color, h2.secondary-color { color: $secondary-color; }
 h4.alternate-color, h2.alternate-color { color: $alternate-color; }
-h4.primary-light   { color: $primary-light; }
+h4.primary-light, h2.primary-light   { color: $primary-light; }
 h4.secondary-light { color: $secondary-light; }
 h4.alternate-light { color: $alternate-light; }
-h4.primary-dark    { color: $primary-dark;  }
+h4.primary-dark, h2.primary-dark    { color: $primary-dark;  }
 h4.secondary-dark  { color: $secondary-dark; }
 h4.alternate-dark  { color: $alternate-dark; }
 
-h2.accent-font {
+h2.section-title.accent-font, h2.accent-font {
   font-family: $accent-font;
+  font-size: 3em;
+  font-weight: 100;
 }
 
 h2.headline-font {
@@ -111,4 +113,39 @@ h2.headline-font {
 
 h2.body-font {
   font-family: $body-font;
+}
+
+#mc_embed_signup {
+  //background:#fff; 
+  clear:left; 
+  //font:14px Helvetica,Arial,sans-serif; 
+}
+
+
+#contact {
+  form {
+    margin: 0;
+
+    label {
+      color: $primary-light; 
+    }
+  }
+}
+
+#learn-more {
+  h2 {
+    margin: 0;
+    padding: 0;
+    &#events-are-hard {
+      font-family: $accent-font;
+    }
+    &#events-build-business{
+      letter-spacing: 4.2px;
+
+    }
+    &#making-events-easy {
+      font-size:2.8em;
+      color: $secondary-light;
+    }
+  }
 }

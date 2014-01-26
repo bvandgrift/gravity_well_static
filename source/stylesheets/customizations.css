@@ -31,5 +31,5 @@ a.next-section-button {
 }
 
 #root { 
-  background: #000 url('/images/banner.jpg') no-repeat center center;
+  background: #000 url('/images/banner.jpg') no-repeat top center;
 }

@@ -170,7 +170,7 @@ $default-text-shadow-v-offset: 1px;
 
 // Heading font styles
 
-$header-font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+$header-font-family: $headline-font;
 $header-font-weight: bold;
 // $header-font-style: normal;
 $header-font-color: $secondary-color;
