@@ -1,4 +1,0 @@
-Services
---------
-
-How it works!
