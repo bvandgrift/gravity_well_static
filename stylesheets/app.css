@@ -2489,7 +2489,7 @@ fieldset { margin: 0; padding: 0; border: none; }
 /* line 20, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/includes/_contact.scss */
 .contact-info li { list-style-type: none; margin-bottom: 0.625em; font-size: 2em; }
 /* line 25, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/includes/_contact.scss */
-.contact-info i { display: inline-block; text-align: center; width: 1.5em; color: #a4a89b; }
+.contact-info i { display: inline-block; text-align: center; width: 1.5em; color: #5ec9e0; }
 
 /* line 33, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/includes/_contact.scss */
 .warning { padding-left: 1.25em; color: #f00; }
@@ -2537,75 +2537,94 @@ h1, h2, h3, h4, h5, h6 { color: #f99a3d; }
 footer { background: #ebede6; }
 
 /* line 61, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-.main-title, .main-subtitle { text-shadow: 0px 1px 10px black; }
+.main-title { text-shadow: 0px 1px 10px black; }
 
 /* line 65, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+#tagline { color: #cd552d; font-size: 2.2em; }
+
+/* line 70, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
 #root a { -webkit-box-shadow: 0px 0px 5px #333333; -moz-box-shadow: 0px 0px 5px #333333; box-shadow: 0px 0px 5px #333333; }
 
-/* line 69, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+/* line 74, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
 #learn-more, #how-it-works { background-color: #387886; color: #cfecf1; }
 
-/* line 74, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-#contact, #contact a { background-color: #cd552d; color: #cfecf1; }
-
 /* line 79, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-.main-title span.color-1 { color: #5ec9e0; font-family: 'Crete Round', serif; }
-
-/* line 84, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-.main-title span.color-2 { color: #f99a3d; font-size: 1.3em; font-family: 'Devonshire', cursive; }
-
-/* line 89, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-#section { display: block; height: 100%; }
-
-/* line 94, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h4.primary-color, h2.primary-color { color: #5ec9e0; }
-
-/* line 95, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h4.secondary-color, h2.secondary-color { color: #f99a3d; }
+#what-we-do strong, #learn-more strong, #how-it-works strong { color: #5ec9e0; }
+/* line 82, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+#what-we-do span, #learn-more span, #how-it-works span { color: #fbc28a; }
+/* line 85, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+#what-we-do ul, #learn-more ul, #how-it-works ul { list-style-type: none; }
+/* line 87, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+#what-we-do ul i, #learn-more ul i, #how-it-works ul i { padding-right: 10px; }
+/* line 91, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+#what-we-do #promise, #learn-more #promise, #how-it-works #promise { font-size: 1.78em; }
 
 /* line 96, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h4.alternate-color, h2.alternate-color { color: #91c967; }
-
-/* line 97, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h4.primary-light, h2.primary-light { color: #cfecf1; }
-
-/* line 98, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h4.secondary-light { color: #fbc28a; }
-
-/* line 99, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h4.alternate-light { color: #bddea3; }
-
-/* line 100, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h4.primary-dark, h2.primary-dark { color: #387886; }
+#contact, #contact a { background-color: #cd552d; color: #cfecf1; }
 
 /* line 101, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h4.secondary-dark { color: #cd552d; }
+.main-title span.color-1 { color: #5ec9e0; font-family: 'Crete Round', serif; }
 
-/* line 102, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h4.alternate-dark { color: #57783d; }
+/* line 106, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+.main-title span.color-2 { color: #f99a3d; font-size: 1.3em; font-family: 'Devonshire', cursive; }
 
-/* line 104, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h2.section-title.accent-font, h2.accent-font { font-family: "Devonshire", cursive; font-size: 3em; font-weight: 100; }
-
-/* line 110, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h2.headline-font { font-family: "Crete Round", serif; }
-
+/* line 111, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+#section { display: block; height: 100%; }
 /* line 114, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-h2.body-font { font-family: "Helvetica Neue", sans-serif; }
+#section strong { color: #5ec9e0; }
 
-/* line 118, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-#mc_embed_signup { clear: left; }
+/* line 119, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+.primary-color, h4.primary-color, h2.primary-color { color: #5ec9e0; }
+
+/* line 120, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+.secondary-color, h4.secondary-color, h2.secondary-color { color: #f99a3d; }
+
+/* line 121, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+.alternate-color, h4.alternate-color, h2.alternate-color { color: #91c967; }
+
+/* line 122, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+.primary-light, h4.primary-light, h2.primary-light { color: #cfecf1; }
+
+/* line 123, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+.secondary-light, h4.secondary-light { color: #fbc28a; }
+
+/* line 124, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+.alternate-light, h4.alternate-light { color: #bddea3; }
+
+/* line 125, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+.primary-dark, h4.primary-dark, h2.primary-dark { color: #387886; }
 
 /* line 126, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
-#contact form { margin: 0; }
+.secondary-dark, h4.secondary-dark { color: #cd552d; }
+
+/* line 127, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+.alternate-dark, h4.alternate-dark { color: #57783d; }
+
 /* line 129, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+h2.section-title.accent-font, h2.accent-font { font-family: "Devonshire", cursive; font-size: 3em; font-weight: 100; }
+
+/* line 135, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+h2.headline-font { font-family: "Crete Round", serif; }
+
+/* line 139, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+h2.body-font { font-family: "Helvetica Neue", sans-serif; }
+
+/* line 143, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+#mc_embed_signup { clear: left; }
+
+/* line 151, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+section p { font-size: 1.2em; }
+
+/* line 156, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+#contact form { margin: 0; }
+/* line 159, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
 #contact form label { color: #cfecf1; }
 
-/* line 136, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+/* line 166, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
 #learn-more h2 { margin: 0; padding: 0; }
-/* line 139, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+/* line 169, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
 #learn-more h2#events-are-hard { font-family: "Devonshire", cursive; }
-/* line 142, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+/* line 172, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
 #learn-more h2#events-build-business { letter-spacing: 4.2px; }
-/* line 146, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
+/* line 176, /Users/bigfleet/Sites/gravity_well_static/source/stylesheets/app.scss */
 #learn-more h2#making-events-easy { font-size: 2.8em; color: #fbc28a; }
