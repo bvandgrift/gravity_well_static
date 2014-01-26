@@ -107,5 +107,6 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 3.0.12)
+  middleman-gh-pages
   sass (~> 3.2.14)
   zurb-foundation

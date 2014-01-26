@@ -4,6 +4,5 @@ source 'http://rubygems.org'
 
 gem "middleman", "~>3.0.12"
 gem 'middleman-gh-pages'
-gem "middleman", "~>3.0.12"
 gem "zurb-foundation"
 gem "sass", "~> 3.2.14"
